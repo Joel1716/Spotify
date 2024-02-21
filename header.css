@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+section{
+    background-color: rgb(27, 27, 27);
+    border: 0;
+    width: 388px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 7px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 900px;
+}
+.user-pic{
+    background-color: rgb(234, 151, 247);
+    color: black;
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+button{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding: 7px 15px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.all{
+    background-color: rgb(93, 240, 93);
+    color: black;
+    padding: 7px 15px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 12px;
+}
