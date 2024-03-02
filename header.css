@@ -19,7 +19,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 900px;
 }
 .user-pic{
     background-color: rgb(234, 151, 247);
