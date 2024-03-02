@@ -7,7 +7,8 @@
 section{
     background-color: rgb(27, 27, 27);
     border: 0;
-    max-width: 100%;
+    width: 325px;
+    height: auto;
 }
 header{
     display: flex;
