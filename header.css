@@ -46,7 +46,7 @@ button{
     border-radius: 15px;
     font-size: 12px;
 }
-@media (max-width:500px) {
+@media (max-width:580px) {
     section {
         margin-top: 200px;
     }
