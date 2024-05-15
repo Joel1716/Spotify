@@ -1,0 +1,57 @@
+@media (max-width: 40em) {
+  /* HEADER SECTION */
+  .user-pic {
+    padding: 1.5rem 2rem;
+    font-size: 2.3rem;
+    border-radius: 50%;
+  }
+  button,
+  .all {
+    font-size: 1.9rem;
+    border-radius: 3rem;
+    padding: 0 3rem;
+  }
+  header {
+    margin-bottom: 3rem;
+  }
+
+  /* MAIN SECTION */
+  section {
+    max-width: none;
+    width: 100vw;
+    height: 100%;
+  }
+  .songs-pics {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1.7rem;
+  }
+  main {
+    padding: 0 1rem;
+  }
+  img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .first p {
+    font-size: 2.1rem;
+    font-weight: 400;
+    padding-left: 1rem;
+  }
+  .unique {
+    font-size: 3rem;
+  }
+  .suggested-playlists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .images {
+    width: 95%;
+    height: 85%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .suggested-playlists p {
+    font-size: 2rem;
+  }
+}
