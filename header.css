@@ -1,53 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
 }
-section{
-    background-color: rgb(27, 27, 27);
-    border: 0;
-    width: 375px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%,-50%);
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-left: 7px;
+  padding-right: 0.7rem;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    padding-left: 7px;
+.user-pic {
+  background-color: rgb(234, 151, 247);
+  color: black;
+  padding: 0.6rem 1rem;
+  border-radius: 50%;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
 }
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+button {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: 0;
+  border-radius: 15px;
+  font-size: 12px;
 }
-.user-pic{
-    background-color: rgb(234, 151, 247);
-    color: black;
-    padding: 6px 10px;
-    border-radius: 20px;
-    border: 0;
-    font-size: 16px;
-    font-weight: bold;
-}
-button{
-    background-color: rgb(48, 48, 48);
-    color: white;
-    padding: 7px 15px;
-    border: 0;
-    border-radius: 15px;
-    font-size: 12px;
-}
-.all{
-    background-color: rgb(93, 240, 93);
-    color: black;
-    padding: 7px 15px;
-    border: 0;
-    border-radius: 15px;
-    font-size: 12px;
+.all {
+  background-color: rgb(93, 240, 93);
+  color: black;
+  padding: 0.7rem 1.5rem;
+  border: 0;
+  border-radius: 15px;
+  font-size: 12px;
 }
