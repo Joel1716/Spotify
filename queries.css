@@ -1,15 +1,16 @@
 @media (max-width: 40em) {
   /* HEADER SECTION */
   .user-pic {
-    padding: 1.5rem 2rem;
+    padding: 0.8rem 1.3rem;
     font-size: 2.3rem;
     border-radius: 50%;
   }
   button,
   .all {
-    font-size: 1.9rem;
     border-radius: 3rem;
-    padding: 0 3rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
   }
   header {
     margin-bottom: 3rem;
@@ -17,8 +18,9 @@
 
   /* MAIN SECTION */
   section {
-    max-width: none;
-    width: 100vw;
+    /* max-width: none;
+    width: auto; */
+    max-width: 200%;
     height: 100%;
   }
   .songs-pics {
@@ -28,15 +30,17 @@
   }
   main {
     padding: 0 1rem;
+    height: auto;
   }
   img {
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
   }
   .first p {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
     font-weight: 400;
     padding-left: 1rem;
+    letter-spacing: 0.05rem;
   }
   .unique {
     font-size: 3rem;
@@ -46,12 +50,60 @@
     grid-template-columns: 1fr 1fr;
   }
   .images {
-    width: 95%;
+    width: 100%;
     height: 85%;
     object-fit: cover;
-    object-position: center;
   }
   .suggested-playlists p {
-    font-size: 2rem;
+    font-size: 1.7rem;
+  }
+}
+
+/* MAX-WIDTH OF 458px */
+@media (max-width: 29em) {
+  /* HEADER SECTION */
+  button {
+    font-size: 1.3rem;
+    padding: 0 1.4rem;
+  }
+  .user-pic {
+    font-size: 1.8rem;
+    padding: 0.7rem 1.2rem;
+    margin-right: 0.1rem;
+    font-weight: 600;
+  }
+  .all {
+    font-size: 1.5rem;
+    padding: 0 1.6rem;
+    font-weight: 400;
+  }
+  .first p {
+    font-size: 1.4rem;
+  }
+  img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .suggested-playlists p {
+    font-size: 1.5rem;
+  }
+}
+/* MAX-WIDTH OF 384px */
+@media (max-width: 24em) {
+  button {
+    font-size: 1.2rem;
+    padding: 0 1.2rem;
+  }
+  .user-pic {
+    font-size: 1.6rem;
+    padding: 0.5rem 0.8rem;
+  }
+  .all {
+    font-size: 1.4rem;
+    padding: 0 1.4rem;
+  }
+  .first p {
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
   }
 }
