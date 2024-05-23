@@ -1,5 +1,8 @@
 @media (max-width: 40em) {
   /* HEADER SECTION */
+  header {
+    margin-top: 2.5rem;
+  }
   .user-pic {
     padding: 0.8rem 1.3rem;
     font-size: 2.3rem;
@@ -11,9 +14,6 @@
     padding: 0 2rem;
     font-size: 1.7rem;
     letter-spacing: 0.1rem;
-  }
-  header {
-    margin-bottom: 3rem;
   }
 
   /* MAIN SECTION */
@@ -51,7 +51,7 @@
   }
   .images {
     width: 100%;
-    height: 85%;
+    height: 100%;
     object-fit: cover;
   }
   .suggested-playlists p {
@@ -88,8 +88,8 @@
     font-size: 1.5rem;
   }
   .songs-pics {
-    row-gap: 1.4rem;
-    column-gap: 1.7rem;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
   }
 }
 /* MAX-WIDTH OF 384px */
