@@ -59,7 +59,7 @@
   }
 }
 
-/* MAX-WIDTH OF 458px */
+/* MAX-WIDTH OF 464px */
 @media (max-width: 29em) {
   /* HEADER SECTION */
   button {
@@ -81,11 +81,15 @@
     font-size: 1.4rem;
   }
   img {
-    width: 5rem;
-    height: 5rem;
+    width: 5.8rem;
+    height: 5.8rem;
   }
   .suggested-playlists p {
     font-size: 1.5rem;
+  }
+  .songs-pics {
+    row-gap: 1.4rem;
+    column-gap: 1.7rem;
   }
 }
 /* MAX-WIDTH OF 384px */
